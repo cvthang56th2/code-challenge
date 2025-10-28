@@ -4,7 +4,7 @@ import type { Token, SwapFormData, SwapState } from '@/types/token';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { TokenSelector } from '@/components/TokenSelector';
+import { TokenSelector } from '@/components/problem2/TokenSelector';
 import { 
   getTokensWithPrices, 
   calculateExchangeRate, 

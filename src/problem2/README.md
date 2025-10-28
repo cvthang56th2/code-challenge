@@ -1,4 +1,37 @@
-# React + TypeScript + Vite
+# Code Challenge Solutions - React Application
+
+This React + TypeScript + Vite application showcases solutions for multiple coding problems in an interactive web interface.
+
+## Features
+
+- **Problem 1: Sum to N** - Interactive demonstration of three different algorithms to calculate sum from 1 to n
+- **Problem 2: Currency Swap** - Crypto currency exchange interface with real-time rates
+- **Problem 3: Code Analysis** - Detailed analysis and refactoring of React TypeScript code with performance improvements
+
+## Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+Visit `http://localhost:5173/code-challenge/` to see the application.
+
+## Problem Solutions
+
+### Problem 1: Three Sum-to-N Implementations
+- **Mathematical Formula**: O(1) time complexity using n*(n+1)/2
+- **Iterative Approach**: O(n) time complexity with for loop
+- **Recursive Approach**: O(n) time complexity with function recursion
+
+### Problem 3: Code Refactoring Analysis
+Identified and fixed 10 issues including:
+- Critical type safety problems
+- Performance inefficiencies  
+- Logic errors and anti-patterns
+- React best practices violations
+
+## Original Template Info
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
