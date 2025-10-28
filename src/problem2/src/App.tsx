@@ -33,7 +33,7 @@ function App() {
               onClick={() => setActiveTab('problem1')}
               className="px-4 py-2"
             >
-              Problem 1: Sum to N
+              Problem 1: Three ways to sum to N
             </Button>
             <Button
               variant={activeTab === 'problem2' ? 'default' : 'ghost'}
@@ -47,7 +47,7 @@ function App() {
               onClick={() => setActiveTab('problem3')}
               className="px-4 py-2"
             >
-              Problem 3: Code Analysis
+              Problem 3: Messy React
             </Button>
           </div>
         </div>
