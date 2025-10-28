@@ -207,10 +207,22 @@ const WalletPage: React.FC<Props> = (props) => {
 
   return (
     <Card className="p-6">
-      <h2 className="text-2xl font-bold mb-4">Problem 3: Code Refactoring</h2>
-      <p className="text-muted-foreground mb-6">
-        Analysis of computational inefficiencies and anti-patterns in a React TypeScript component.
-      </p>
+      <h2 className="text-2xl font-bold mb-4">Problem 3: Messy React</h2>
+      <div className="mb-6">
+        <p className="text-muted-foreground mb-4">
+          List out the computational inefficiencies and anti-patterns found in the code block below.
+        </p>
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-4">
+          <h4 className="font-semibold text-blue-900 mb-2">Code Requirements:</h4>
+          <ol className="text-sm text-blue-800 space-y-1">
+        <li>1. This code block uses:</li>
+        <li className="ml-4">a. ReactJS with TypeScript</li>
+        <li className="ml-4">b. Functional components</li>
+        <li className="ml-4">c. React Hooks</li>
+        <li>2. You should also provide a refactored version of the code, but more points are awarded to accurately stating the issues and explaining correctly how to improve them.</li>
+          </ol>
+        </div>
+      </div>
 
       <div className="space-y-6">
         {/* Issues Section */}

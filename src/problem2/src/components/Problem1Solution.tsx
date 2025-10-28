@@ -52,12 +52,22 @@ export const Problem1Solution = () => {
 
   return (
     <Card className="p-6">
-      <h2 className="text-2xl font-bold mb-4">Problem 1: Sum to N</h2>
-      <p className="text-muted-foreground mb-6">
-        Provide 3 unique implementations of a function that calculates the sum from 1 to n.
-      </p>
+      <h2 className="text-2xl font-bold mb-4">Problem 1: Three ways to sum to N</h2>
+      <div className="text-muted-foreground mb-6 space-y-2">
+        <p>
+          Provide 3 unique implementations of the following function in JavaScript.
+        </p>
+        <div className="bg-muted p-3 rounded">
+          <p><strong>Input:</strong> <code>n</code> - any integer</p>
+          <p className="text-sm italic">Assuming this input will always produce a result lesser than <code>Number.MAX_SAFE_INTEGER</code>.</p>
+        </div>
+        <div className="bg-muted p-3 rounded">
+          <p><strong>Output:</strong> <code>return</code> - summation to <code>n</code>, i.e. <code>sum_to_n(5) === 1 + 2 + 3 + 4 + 5 === 15</code>.</p>
+        </div>
+      </div>
       
       <div className="space-y-6">
+        <label className="font-semibold mt-2">Enter n:</label>
         <div className="flex gap-2">
           <Input
             type="number"
