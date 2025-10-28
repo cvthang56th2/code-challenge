@@ -29,7 +29,7 @@ export const Problem2Solution = () => {
             <DialogHeader>
               <DialogTitle>Problem 2: Fancy Form</DialogTitle>
             </DialogHeader>
-            <DialogDescription className="text-sm text-muted-foreground mb-4">
+            <DialogDescription className="text-sm text-muted-foreground my-4">
               Create a currency swap form based on the template provided in the folder. A user would use this form to swap assets from one currency to another.
             </DialogDescription>
 
