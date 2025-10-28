@@ -40,7 +40,7 @@ function App() {
               onClick={() => setActiveTab('problem2')}
               className="px-4 py-2"
             >
-              Problem 2: Currency Swap
+              Problem 2: Fancy Form
             </Button>
             <Button
               variant={activeTab === 'problem3' ? 'default' : 'ghost'}
